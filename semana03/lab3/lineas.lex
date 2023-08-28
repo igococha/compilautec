@@ -5,7 +5,7 @@
 .       ++num_chars;
 
 %%
-main() {
+int main() {
   yylex();
   printf( "# of lines = %d, # of chars = %d\n",
 	  num_lines, num_chars );

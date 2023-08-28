@@ -1,0 +1,7 @@
+push 3
+
+
+L1: jmpgt
+mult
+add
+goto L2

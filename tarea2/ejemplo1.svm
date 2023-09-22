@@ -1,0 +1,13 @@
+push 30
+push 3
+div 
+dup 
+push 2
+add 
+swap 
+jmpge L20
+push 10
+goto LEND
+L20: push 20
+LEND: skip 
+
